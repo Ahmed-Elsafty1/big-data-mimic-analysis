@@ -24,8 +24,8 @@ This project implements a Big Data analytics pipeline using Hadoop and Hive on t
 - **`screenshots/`**: 👉 CLI and results screenshots
 
 ## 📈 Key Analyses 
-- **queries**: in queries folder
-- **queries Resules**: in queries results folder
+- **queries**: 👉 queries folder
+- **queries Resules**: 👉 queries results folder
 - Average Length of Stay
 - Top Diagnoses
 - Mortality Rates by Gender and Age
