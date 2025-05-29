@@ -1,0 +1,15 @@
++---------------------------------------+--------------+
+|               diagnosis               | death_count  |
++---------------------------------------+--------------+
+| SEPSIS                                | 2            |
+| FEVER                                 | 2            |
+| LIVER FAILURE                         | 2            |
+| CONGESTIVE HEART FAILURE              | 2            |
+| CRITICAL AORTIC STENOSIS/HYPOTENSION  | 1            |
+| VOLVULUS                              | 1            |
+| CEREBROVASCULAR ACCIDENT              | 1            |
+| BASAL GANGLIN BLEED                   | 1            |
+| ALCOHOLIC HEPATITIS                   | 1            |
+| VF ARREST                             | 1            |
++---------------------------------------+--------------+
+

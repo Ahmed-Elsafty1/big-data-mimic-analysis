@@ -1,0 +1,20 @@
+SELECT 
+    p.gender,
+    CASE
+        WHEN FLOOR(DATEDIFF(CURRENT_DATE, p.dob) / 365.25) < 18 THEN '0-17'
+        WHEN FLOOR(DATEDIFF(CURRENT_DATE, p.dob) / 365.25) BETWEEN 18 AND 44 THEN '18-44'
+        WHEN FLOOR(DATEDIFF(CURRENT_DATE, p.dob) / 365.25) BETWEEN 45 AND 64 THEN '45-64'
+        ELSE '65+' 
+    END as age_group,
+    AVG(CAST(p.expire_flag AS DOUBLE)) as mortality_rate
+FROM PATIENTS p
+WHERE p.dob IS NOT NULL
+GROUP BY
+    p.gender,
+    CASE
+        WHEN FLOOR(DATEDIFF(CURRENT_DATE, p.dob) / 365.25) < 18 THEN '0-17'
+        WHEN FLOOR(DATEDIFF(CURRENT_DATE, p.dob) / 365.25) BETWEEN 18 AND 44 THEN '18-44'
+        WHEN FLOOR(DATEDIFF(CURRENT_DATE, p.dob) / 365.25) BETWEEN 45 AND 64 THEN '45-64'
+        ELSE '65+'
+    END
+ORDER BY p.gender, age_group;

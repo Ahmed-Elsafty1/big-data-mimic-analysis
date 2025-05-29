@@ -1,0 +1,14 @@
++--------------+---------------------------+---------------+
+| d.icd9_code  |      di.short_title       | avg_los_days  |
++--------------+---------------------------+---------------+
+| 45341        | Ac DVT/emb prox low ext   | 124.0         |
+| 37000        | Corneal ulcer NOS         | 124.0         |
+| 71589        | Osteoarthrosis-mult site  | 124.0         |
+| 3510         | Bell's palsy              | 124.0         |
+| 28803        | Drug induced neutropenia  | 124.0         |
+| 27788        | Tumor lysis syndrome      | 124.0         |
+| 28489        | Aplastic anemias NEC      | 124.0         |
+| 35782        | Crit illness neuropathy   | 124.0         |
+| V600         | Lack of housing           | 124.0         |
+| 27542        | Hypercalcemia             | 124.0         |
++--------------+---------------------------+---------------+

@@ -1,0 +1,15 @@
++---------------------------+-----------------+
+|         diagnosis         | num_admissions  |
++---------------------------+-----------------+
+| SEPSIS                    | 10              |
+| PNEUMONIA                 | 8               |
+| SHORTNESS OF BREATH       | 4               |
+| FEVER                     | 4               |
+| FAILURE TO THRIVE         | 3               |
+| CONGESTIVE HEART FAILURE  | 3               |
+| UPPER GI BLEED            | 2               |
+| LIVER FAILURE             | 2               |
+| RESPIRATORY DISTRESS      | 2               |
+| GASTROINTESTINAL BLEED    | 2               |
++---------------------------+-----------------+
+
