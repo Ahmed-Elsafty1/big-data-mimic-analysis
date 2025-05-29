@@ -16,7 +16,7 @@ This project implements a Big Data analytics pipeline using Hadoop and Hive on t
 
 ## 📁 Project Structure
 - **`Environment preparations`** 👉 installations requerments
-- **`Data_preprocessing`** : 👉 preprocessing data & converting it to >> avro format
+- **`Data_preprocessing`** : 👉 data model & preprocessing data & converting it to >> avro format
 - **`hdfs_ddl/`**: 👉 loading data in hdfs 
 - **`hive_ddl/`**: 👉 Hive CREATE TABLE scripts
 - **`queries/`**: 👉 Analysis SQL queries
